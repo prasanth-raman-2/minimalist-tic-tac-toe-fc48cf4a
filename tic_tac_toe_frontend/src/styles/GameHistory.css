@@ -1,0 +1,22 @@
+.game-history {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.history-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.history-item:last-child {
+  border-bottom: none;
+}
